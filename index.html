@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DataScience Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .btn-dark {
+      background-color: #000;
+      border: none;
+    }
+
+    .btn-dark:hover {
+      background-color: #333;
+    }
+
+    .card-title {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .card ul {
+      padding-left: 1.2rem;
+    }
+
+    .card ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    #experience h3 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #000;
+    }
+
+    footer p {
+      margin-bottom: 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    footer .text-white {
+      opacity: 0.85;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: #333;
+      font-weight: 500;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #000;
+    }
+
+    textarea.form-control {
+      resize: none;
+    }
+
+    .bg-light {
+      background-color: #f9f9f9 !important;
+    }
+
+    .bg-secondary {
+      background-color: #ccc !important;
+    }
+
+    .border {
+      border-radius: 0.5rem;
+    }
+
+    .form-control:focus {
+      border-color: #000;
+      box-shadow: none;
+    }
+
+    .hero-subtext {
+      max-width: 550px;
+    }
+
+    .hero-image {
+      background: url('https://images.unsplash.com/photo-1556761175-4b46a572b786') center/cover no-repeat;
+      height: 100%;
+      min-height: 300px;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .btn {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">DataScience Pro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 hero-text" data-aos="fade-up">
+          <h2>Your Data. Smarter Decisions. Greater Impact.</h2>
+          <p class="mb-4">Partner with an expert to transform raw data into business success using analytics, AI, and intelligent automation.</p>
+          <a href="#contact" class="btn btn-dark me-2">Start a Project</a>
+          <a href="#services" class="btn btn-outline-secondary">Explore Services</a>
+        </div>
+        <div class="col-lg-6" data-aos="zoom-in">
+          <div class="hero-image w-100 h-100"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p class="mb-4">Passionate data scientist with 8+ years of experience helping businesses make data-driven decisions.</p>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3">
+          <div class="bg-secondary text-white py-5">Professional Photo</div>
+        </div>
+        <div class="col-md-6 text-start">
+          <h4>Why Choose Me?</h4>
+          <ul>
+            <li><strong>Expert Knowledge:</strong> Advanced degrees in Data Science and Statistics</li>
+            <li><strong>Proven Results:</strong> Delivered 150+ successful projects</li>
+            <li><strong>Latest Technologies:</strong> Python, R, TensorFlow, AWS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Services</h2>
+      <p class="text-center mb-5">Comprehensive data science solutions tailored to your business needs</p>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Data Analytics & Insights</h5>
+              <ul>
+                <li>Exploratory Data Analysis</li>
+                <li>Statistical Modeling</li>
+                <li>Interactive Dashboards</li>
+                <li>Predictive Analytics</li>
+              </ul>
+              <a href="#" class="btn btn-dark">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning Solutions</h5>
+              <ul>
+                <li>Custom ML Models</li>
+                <li>Natural Language Processing</li>
+                <li>Computer Vision</li>
+                <li>Model Deployment & Monitoring</li>
+              </ul>
+              <a href="#" class="btn btn-dark">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-5">
+    <div class="container text-center">
+      <h2>Experience & Expertise</h2>
+      <div class="row my-4">
+        <div class="col-md-4">
+          <h3>8+</h3><p>Years Experience</p>
+        </div>
+        <div class="col-md-4">
+          <h3>150+</h3><p>Projects Completed</p>
+        </div>
+        <div class="col-md-4">
+          <h3>95%</h3><p>Client Satisfaction</p>
+        </div>
+      </div>
+      <p>Python | R | TensorFlow | AWS</p>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Client Reviews</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="p-3 border bg-white">
+            <p><strong>Sarah Johnson</strong>, CEO, TechBurst</p>
+            <p>⭐⭐⭐⭐⭐ <br> “Exceptional work… helped increase retention by 30%.”</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-white">
+            <p><strong>Michael Chen</strong>, Director, DataCorp</p>
+            <p>⭐⭐⭐⭐⭐ <br> “Professional and timely. Model performs beautifully.”</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-white">
+            <p><strong>Emma Davis</strong>, VP Analytics, RetailPlus</p>
+            <p>⭐⭐⭐⭐⭐ <br> “Outstanding expertise in data visualization.”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Get In Touch</h2>
+      <p class="text-center mb-4">Ready to transform your data? Let’s discuss your project.</p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Name" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control" placeholder="Company">
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control" placeholder="Project Type">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="5" placeholder="Project Details"></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-dark">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p>Expert data science solutions for modern businesses.</p>
+        </div>
+        <div class="col-md-4">
+          <p>📧 hello@datasciencepro.com</p>
+          <p>📞 +1 (555) 123-4567</p>
+        </div>
+        <div class="col-md-4">
+          <p>Follow Me: 🔗 🐦 📘 📸</p>
+        </div>
+      </div>
+      <div class="text-center mt-3">&copy; 2025 DataScience Pro. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
